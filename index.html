@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>terafab.tech</title>
+  <meta name="description" content="The era of planetary-scale AI begins with the TeraFab: a factory for intelligence at scale." />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=Roboto+Mono:wght@300;400&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+      color: #e0e0e0;
+      font-family: 'Roboto Mono', monospace;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Industrial grid & heat haze */
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background:
+        linear-gradient(rgba(50, 50, 60, 0.2) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(50, 50, 60, 0.2) 1px, transparent 1px);
+      background-size: 40px 40px;
+      z-index: -2;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 800px;
+      padding: 2rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3.4rem;
+      letter-spacing: 3px;
+      margin-bottom: 1.6rem;
+      background: linear-gradient(to right, #ff2a6d, #05d9e8);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      text-shadow: 0 0 15px rgba(5, 217, 232, 0.2);
+    }
+
+    .tagline {
+      font-size: 1.15rem;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+      color: #c0c0d6;
+    }
+
+    .factory-glow {
+      width: 140px;
+      height: 80px;
+      margin: 1.8rem auto;
+      background: rgba(10, 10, 20, 0.7);
+      border: 2px solid rgba(5, 217, 232, 0.4);
+      border-radius: 6px;
+      position: relative;
+      box-shadow: 0 0 25px rgba(5, 217, 232, 0.3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.9rem;
+      color: #05d9e8;
+      animation: hum 3s infinite alternate;
+    }
+
+    @keyframes hum {
+      0% { transform: translateY(0); box-shadow: 0 0 20px rgba(5, 217, 232, 0.3); }
+      100% { transform: translateY(2px); box-shadow: 0 0 35px rgba(5, 217, 232, 0.5); }
+    }
+
+    .vision {
+      margin: 1.8rem 0;
+      color: #ff7bac;
+      font-size: 1.05rem;
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+    }
+
+    .price {
+      font-size: 1.4rem;
+      margin: 2rem 0;
+      color: #05d9e8;
+      font-weight: bold;
+    }
+
+    .contact {
+      margin-top: 2rem;
+      font-size: 1.05rem;
+      color: #a0d8ff;
+    }
+
+    .contact a {
+      color: #05d9e8;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 2.5rem;
+      font-size: 0.85rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>TERAFAB.TECH</h1>
+
+    <p class="tagline">
+      As AI evolves, intelligence must be manufactured at scale. The TeraFab is not a data center—it’s a factory for thought.
+    </p>
+
+    <div class="factory-glow">AI FACTORY ONLINE</div>
+
+    <p class="vision">
+      Future civilizations will be built on exascale inference, real-time learning, and autonomous model refinement—powered by mega-factories like this.
+    </p>
+
+    <p class="tagline">
+      This domain represents the infrastructure layer of the next intelligence revolution.
+    </p>
+
+    <div class="price">
+      Price: $420 USD (3 monthly installments available)
+    </div>
+
+    <p class="contact">
+      Contact: <a href="mailto:ltzwin2021@gmail.com">ltzwin2021@gmail.com</a>
+    </p>
+
+    <footer>
+      TERAFAB + TECH = PLANETARY-SCALE INTELLIGENCE
+    </footer>
+  </div>
+</body>
+</html>
